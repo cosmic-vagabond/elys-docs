@@ -1,4 +1,4 @@
-# Elys Protocol Documentation
+# Elys Network Documentation
 
 ## Automatic Deployment
 
