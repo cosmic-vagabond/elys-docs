@@ -10,7 +10,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Elys Protocol Documentation',
+  title: 'Elys Network Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
