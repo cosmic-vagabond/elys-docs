@@ -5,7 +5,7 @@
   "main": "index.js",
   "authors": {
     "name": "Elys Team",
-    "email": "docs@elys.network"
+    "email": "teams@elys.network"
   },
   "repository": "https://github.com/elys-network/elys-docs",
   "scripts": {
