@@ -1,0 +1,32 @@
+{
+  "name": "elys-docs",
+  "version": "0.0.1",
+  "description": "The Elys Network's official documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Elys Team",
+    "email": "docs@elys.network"
+  },
+  "repository": "https://github.com/elys-network/elys-docs",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.7",
+    "@volar/vue-language-plugin-pug": "^1.0.24",
+    "@vue/runtime-dom": "^3.2.45",
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1",
+    "@vuepress/plugin-search": "^1.5.2",
+    "vuepress": "^1.9.8"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "vue-tabs-component": "^1.5.0",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-tabs": "^0.3.0",
+    "vuepress-theme-cosmos": "./theme/vuepress-theme-cosmos"
+  }
+}
